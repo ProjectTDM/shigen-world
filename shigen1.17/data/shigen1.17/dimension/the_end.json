@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -999572498860849568,
+    "settings": "minecraft:end",
+    "biome_source": {
+      "type": "minecraft:the_end",
+      "seed": -999572498860849568
+    }
+  }
+}

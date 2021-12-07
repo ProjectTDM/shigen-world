@@ -13,14 +13,14 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "shigen1.17:root",
+  "parent": "shigen:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "location": {
-            "dimension": "shigen1.17:overworld"
+            "dimension": "shigen:overworld"
           }
         }
       }

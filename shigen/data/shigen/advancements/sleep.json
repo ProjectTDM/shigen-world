@@ -4,12 +4,12 @@
       "trigger": "minecraft:slept_in_bed",
       "conditions": {
         "location": {
-          "dimension": "shigen1.17:overworld"
+          "dimension": "shigen:overworld"
         }
       }
     }
   },
   "rewards": {
-    "function": "shigen1.17:temporary"
+    "function": "shigen:temporary"
   }
 }

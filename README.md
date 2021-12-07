@@ -1,4 +1,4 @@
-# shigen1.17 ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange)
+# shigen ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange)
 資源ワールドをプラグインなどを使わずに作れるデータパック
 
 ## 注意

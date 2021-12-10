@@ -1,7 +1,7 @@
-# shigen ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange)
+# shigen ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue)
 資源ワールドをプラグインなどを使わずに作れるデータパック
-- ~v0.10 1.17版
-- v0.20~ 1.18版
+- ~v0.1.0 1.17版
+- v0.2.0~ 1.18版
 
 ## とても雑な説明
 1. Releasesからzipファイルをダウンロード！

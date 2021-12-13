@@ -21,13 +21,14 @@
 ## アップデート
  ### 1.17→1.18
  1. datapackフォルダからshigenデータパックを取り除く
- 2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す。
- 3. ワールドを開く(サーバーを起動する)
- 4. /execute in をチャット欄に打ち込んで候補にshigen1.17:から始まるものがないことを確認
-    ![2021-12-13_20 17 09_2](https://user-images.githubusercontent.com/55052380/145803761-83eb5d50-a088-4be0-ad82-1c749feea9da.png)
- 5. ワールドを閉じる(サーバーを停止する)
- 6. 新しいバージョンのデータパックをdatapackフォルダに入れる
- 7. enjoy!
+ 2. dimensionsフォルダ内shigen1.17フォルダを取り除く
+ 3. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す。
+ 4. ワールドを開く(サーバーを起動する)
+ 5. /execute in をチャット欄に打ち込んで候補にshigen1.17:から始まるものがないことを確認
+![2021-12-13_20 17 09_2](https://user-images.githubusercontent.com/55052380/145803761-83eb5d50-a088-4be0-ad82-1c749feea9da.png)
+ 6. ワールドを閉じる(サーバーを停止する)
+ 7. 新しいバージョンのデータパックをdatapackフォルダに入れる
+ 8. enjoy!
 
 ## アンインストール
 1. データパックをdatapackフォルダから消す。

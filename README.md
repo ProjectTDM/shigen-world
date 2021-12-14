@@ -19,7 +19,7 @@
  - シングルワールドで読み込んだ場合ワールドに入る毎に警告文が出ますが「危険性を理解したうえで読み込む」をクリックして続行してください。
 
 ## アップデート
- ### 1.17→1.18
+ ### 1.17→1.18(1.17で作った資源ワールドには入れなくなります！)
  1. datapackフォルダからshigenデータパックを取り除く
  2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す。
  3. ワールドを開く(サーバーを起動する)

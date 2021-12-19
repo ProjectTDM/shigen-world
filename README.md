@@ -1,4 +1,4 @@
-# shigen ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now:All users%20FutureNone-lightgrey)
+# shigen ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll users%20Future%3ANone-lightgrey)
 資源ワールドをプラグインなどを使わずに作れるデータパック
 - ~v0.10 1.17版
 - v0.20~ 1.18版

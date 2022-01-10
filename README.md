@@ -24,7 +24,7 @@
 
 ## アップデート
  ### 1.17→1.18(1.17で作った資源ワールドには入れなくなります！)
- 1. datapackフォルダからshigenデータパックを取り除く
+ 1. datapackフォルダからshigenデータパックを取り除く(または/datapack disable コマンドを打って無効化する)
  2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す。
  3. ワールドを開く(サーバーを起動する)
  4. /execute in をチャット欄に打ち込んで候補にshigen1.17:から始まるものがないことを確認

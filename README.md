@@ -1,4 +1,4 @@
-# shigen [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/tunakaniri/shigen)
+# 資源ワールド [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/tunakaniri/shigen)
 ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll%20users→Future%3ANone-lightgrey)
 
 資源ワールドをプラグインなどを使わずに作れるデータパック
@@ -16,23 +16,38 @@
 ## 注意
  - マイクラのアップデートをする際は下の「[アップデート](https://github.com/tunakaniri/shigen/blob/main/README.md#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88)」を必ず読んでください！(ワールドが破損する場合があります。)
  - 資源オーバーワールドで寝ようとした場合ベッドで寝てから101tick後に強制的に「/time add 11358t」が実行され朝(寝る時間が遅すぎる場合夕方)になります(F3を押して見られるDayの表示をリセットしたくなかったのでこの様になりました)。
- - 資源エンドでエンドラ及び出口ポータルが出現しない場合は[NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)等を用いてlevel.datを開きData>DragonFight>NeedsStateScanningを0から1に変更して元のエンドに入らずに資源エンドに入ってください(元のエンドに入ると値が0に戻り、やり直しが必要になります)。
+ - 資源エンドでエンドラ及び出口ポータルが出現しない場合は[NBTExplorer](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1262665-nbtexplorer-nbt-editor-for-windows-and-mac)等を用いてlevel.datを開きData>DragonFight>NeedsStateScanningを0から1に変更して"元のエンドに入らず"に資源エンドに入ってください(元のエンドに入ると値が0に戻り、やり直しが必要になります)。
  - 現時点ではコマンドでしか資源ワールドに飛ぶことはできません(1.17及び1.18でのカスタムポータルの作り方が分からないため)。
  - また、資源ワールドではネザーゲート及びエンドゲート、エンドポータルを使えません。
  - エンドの出口ポータルを通ると元のエンドに出るのは仕様です。
  - シングルワールドで読み込んだ場合ワールドに入る毎に警告文が出ますが「危険性を理解したうえで読み込む」をクリックして続行してください。
 
-## アップデート
- ### 1.17→1.18(1.17で作った資源ワールドには入れなくなります！)
+## アップデート(旧バージョンのデータパックの進捗は自動的に消えます)
+ ### 1.17→1.18
+ #### 1.前のワールドがいらない場合
  1. datapackフォルダからshigenデータパックを取り除く(または/datapack disable コマンドを打って無効化する)
- 2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す。
- 3. ワールドを開く(サーバーを起動する)
- 4. /execute in をチャット欄に打ち込んで候補にshigen1.17:から始まるものがないことを確認
-![2021-12-13_20 17 09_2](https://user-images.githubusercontent.com/55052380/145803761-83eb5d50-a088-4be0-ad82-1c749feea9da.png)
- 5. ワールドを閉じる(サーバーを停止する)
- 6. 新しいバージョンのデータパックをdatapackフォルダに入れる
- 7. enjoy!
- 8. (オプション)不要になったdimensionsフォルダ内shigen1.17フォルダを取り除く
+ 2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す(Deleteキーまたは選択して上にある✕ボタン)。
+ 3. 下の画像のようになっているか確認<br>![image](https://user-images.githubusercontent.com/55052380/154085102-54be3e5d-bef2-455f-b44e-a682f22bc8fa.png)
+ 4. Ctrl+S(または上にあるフロッピーディスクをクリック)して保存。
+ 5. ワールドを開く(サーバーを起動する)
+ 6. /execute in をチャット欄に打ち込んで候補にshigen1.17:から始まるものがないことを確認。![2021-12-13_20 17 09_2](https://user-images.githubusercontent.com/55052380/154086305-9051078b-d561-474c-b74b-f34567c1698b.png)<!-- (https://user-images.githubusercontent.com/55052380/145803761-83eb5d50-a088-4be0-ad82-1c749feea9da.png) -->
+ 7. ワールドを閉じる(サーバーを停止する)。
+ 8. 1.18版のデータパックをdatapackフォルダに入れる。
+ 9. **enjoy!**
+ 10. (オプション)不要になったdimensionsフォルダ内shigen1.17フォルダを取り除く。
+ 
+ #### 2.前のワールドを引き継ぐ場合
+ 1. datapackフォルダからshigenデータパックを取り除く(または/datapack disable コマンドを打って無効化する)
+ 2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:overworld及びその下のフォルダを開く。
+ 3. 下の画像と同じ様になっているか確認(seedの数字は違っていても構いません)。<br>![image](https://user-images.githubusercontent.com/55052380/154083995-01c037e1-6acb-405c-a36c-96b1f7438e32.png)
+ 4. biome_source内の「large_biomes」と「seed」のファイルを消す(Deleteキーまたは選択して上にある✕ボタン)。
+ 5. biome_source内の「type: minecraft:vanilla_layered」をダブルクリック(または上にある「鉛筆マーク」をクリック)して「minecraft:multi_noise」に書き換えて、「OK」ボタンをクリック。
+ 6. generator内の「settings: minecraft:overworld」をコピー(Ctrl+Cまたは上にある「紙が二枚重なっているやつ」をクリック)して「biome_source」をクリックしてから貼り付け(Ctrl+Vまたは上にある「クリップボードに紙が乗っているやつ」をクリック)
+ 7. 貼り付けたbiome_source内の「settings: minecraft:overworld」をクリックして上にある「カーソルが点々線で囲まれているやつ![image](https://user-images.githubusercontent.com/55052380/154082289-71de974a-d805-4b03-ab8d-c6406f43d748.png)」をクリックした後「preset」に書き換えて、「OK」ボタンをクリック。
+ 8. 下の画像と同じ様になっているか確認(seedの数字は違っていても構いません)。<br>![image](https://user-images.githubusercontent.com/55052380/154083789-54328de5-8eb4-41f8-8fab-bf3dc00148ce.png)
+ 9. Ctrl+S(または上にあるフロッピーディスクをクリック)して保存。
+ 10. (オプション)1.18版のデータパックをdatapackフォルダに入れる。
+ 11. **enjoy!**
 
 ## アンインストール
 1. データパックをdatapackフォルダから消す。

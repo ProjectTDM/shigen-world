@@ -43,7 +43,7 @@
  4. biome_source内の「large_biomes」と「seed」のファイルを消す(Deleteキーまたは選択して上にある✕ボタン)。
  5. biome_source内の「type: minecraft:vanilla_layered」をダブルクリック(または上にある「鉛筆マーク」をクリック)して「minecraft:multi_noise」に書き換えて、「OK」ボタンをクリック。
  6. generator内の「settings: minecraft:overworld」をコピー(Ctrl+Cまたは上にある「紙が二枚重なっているやつ」をクリック)して「biome_source」をクリックしてから貼り付け(Ctrl+Vまたは上にある「クリップボードに紙が乗っているやつ」をクリック)
- 7. 貼り付けたbiome_source内の「settings: minecraft:overworld」をクリックして上にある「カーソルが点々線で囲まれているやつ![image](https://user-images.githubusercontent.com/55052380/154082289-71de974a-d805-4b03-ab8d-c6406f43d748.png)」をクリックした後「preset」に書き換えて、「OK」ボタンをクリック。
+ 7. 貼り付けたbiome_source内の「settings: minecraft:overworld」をクリックして上にある「カーソルが点々線で囲まれているやつ![image](https://user-images.githubusercontent.com/55052380/154089783-b984741b-e406-4447-9463-38d301f7cbc7.png)」をクリックした後「preset」に書き換えて、「OK」ボタンをクリック。
  8. 下の画像と同じ様になっているか確認(seedの数字は違っていても構いません)。<br>![image](https://user-images.githubusercontent.com/55052380/154083789-54328de5-8eb4-41f8-8fab-bf3dc00148ce.png)
  9. Ctrl+S(または上にあるフロッピーディスクをクリック)して保存。
  10. (オプション)1.18版のデータパックをdatapackフォルダに入れる。

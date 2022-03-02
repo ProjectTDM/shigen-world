@@ -6,8 +6,7 @@
     "settings": "minecraft:nether",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "seed": -999572498860849568,
-      "preset": "nether"
+      "preset": "minecraft:nether"
     }
   }
 }

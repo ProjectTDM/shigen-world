@@ -1,5 +1,5 @@
 # 資源ワールド [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/tunakaniri/shigen)
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll%20users→Future%3ANone-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.2-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll%20users→Future%3ANone-lightgrey)
 
 資源ワールドをプラグインなどを使わずに作れるデータパック
 - ~v0.10 1.17版

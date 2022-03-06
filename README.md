@@ -55,4 +55,5 @@
 2. dimensionsフォルダ内のshigen1.17またはshigenを消す。
 3. (完全に消すには)[NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:またはshigen:から始まるものをすべて消す。
 
+#
 ###### 深層岩を生成しないワールドも作りたかったけどうまく行かなかったので断念

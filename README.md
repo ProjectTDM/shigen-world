@@ -36,7 +36,7 @@
  8. 1.18版のデータパックをdatapackフォルダに入れる。
  9. **enjoy!**
  10. (オプション)不要になったdimensionsフォルダ内shigen1.17フォルダを取り除く。
- 
+
  #### 2.前のワールドを引き継ぐ場合
  1. datapackフォルダからshigenデータパックを取り除く(または/datapack disable コマンドを打って無効化する)
  2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:overworld及びその下のフォルダを開く。

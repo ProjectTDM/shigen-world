@@ -1,0 +1,20 @@
+{
+  "display":{
+    "icon":{
+      "item":"minecraft:compass"
+    },
+    "title":{
+      "translate":"advancements.shigen.root.title"
+    },
+    "description":{
+      "translate":"advancements.shigen.root.description"
+    },
+    "frame":"task",
+    "background":"minecraft:textures/block/dark_oak_log.png"
+  },
+  "criteria":{
+    "":{
+      "trigger":"impossible"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 8,
-    "description": "Add New World [Created by tunakaniri]"
+  "pack":{
+    "pack_format":10,
+    "description":"Add New World v0.3.0 [Created by tunakaniri]"
   }
 }

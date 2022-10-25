@@ -50,6 +50,13 @@
  10. (オプション)1.18版のデータパックをdatapackフォルダに入れる。
  11. **enjoy!**
 
+### もしアップデートに失敗してデフォルトのエンドやネザーに行けなかった場合
+ 1. アップデートのときと同じくlevel.datをNBTExplorerで開く。
+ 2. 生成された「shigen:the_nether」と「shigen:the_end」を同じ階層に複製する。
+ 3. 「(Copy 1)」が後ろについているものをクリックして、上にある「カーソルが点々線で囲まれているやつ![image](https://user-images.githubusercontent.com/55052380/154089783-b984741b-e406-4447-9463-38d301f7cbc7.png)」をクリックして「shigen」を「minecraft」にして後ろの「(Copy 1)」を消す。
+ 4. Ctrl+S(または上にあるフロッピーディスクをクリック)して保存。
+ 5. **enjoy!**
+
 ## アンインストール
 1. データパックをdatapackフォルダから消す。
 2. dimensionsフォルダ内のshigen1.17またはshigenを消す。

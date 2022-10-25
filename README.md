@@ -25,7 +25,7 @@
 
 ## アップデート
 (旧バージョンのデータパックの進捗は自動的に消えます)
- ### 1.17→1.18
+ ### 1.17→1.18(1.17→1.19でも同じように使えます)
  #### 1.前のワールドがいらない場合
  1. datapackフォルダからshigenデータパックを取り除く(または/datapack disable コマンドを打って無効化する)
  2. [NBTExplorer](https://github.com/jaquadro/NBTExplorer/releases/)を使ってlevel.datを開きData>WorldGenSettings>dimensions内のshigen1.17:から始まるものをすべて消す(Deleteキーまたは選択して上にある✕ボタン)。

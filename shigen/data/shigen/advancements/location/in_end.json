@@ -1,0 +1,17 @@
+{
+  "criteria":{
+    "requirement":{
+      "trigger":"minecraft:location",
+      "conditions":{
+        "player":{
+          "location":{
+            "dimension":"shigen:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards":{
+    "function":"shigen:location/in_end"
+  }
+}

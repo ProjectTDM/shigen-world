@@ -1,26 +1,26 @@
 {
   "display":{
     "icon":{
-      "item":"minecraft:elytra"
+      "item":"minecraft:gold_ingot"
     },
     "title":{
-      "translate":"advancements.shigen.end.title"
+      "translate":"advancements.shigen.nether.title"
     },
     "description":{
-      "translate":"advancements.shigen.end.description"
+      "translate":"advancements.shigen.nether.description"
     },
     "frame":"goal",
     "show_toast":true,
     "announce_to_chat":true
   },
-  "parent":"shigen:the_nether",
+  "parent":"shigen:in_shigen/overworld",
   "criteria":{
     "requirement":{
       "trigger":"minecraft:location",
       "conditions":{
         "player":{
           "location":{
-            "dimension":"shigen:the_end"
+            "dimension":"shigen:the_nether"
           }
         }
       }

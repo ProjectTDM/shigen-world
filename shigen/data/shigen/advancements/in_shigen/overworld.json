@@ -1,26 +1,26 @@
 {
   "display":{
     "icon":{
-      "item":"minecraft:gold_ingot"
+      "item":"minecraft:grass_block"
     },
     "title":{
-      "translate":"advancements.shigen.nether.title"
+      "translate":"advancements.shigen.overworld.title"
     },
     "description":{
-      "translate":"advancements.shigen.nether.description"
+      "translate":"advancements.shigen.overworld.description"
     },
     "frame":"goal",
     "show_toast":true,
     "announce_to_chat":true
   },
-  "parent":"shigen:overworld",
+  "parent":"shigen:in_shigen/root",
   "criteria":{
     "requirement":{
       "trigger":"minecraft:location",
       "conditions":{
         "player":{
           "location":{
-            "dimension":"shigen:the_nether"
+            "dimension":"shigen:overworld"
           }
         }
       }

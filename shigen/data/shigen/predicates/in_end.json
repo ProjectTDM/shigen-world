@@ -1,0 +1,6 @@
+{
+  "condition":"minecraft:location_check",
+  "predicate":{
+    "dimension":"shigen:the_end"
+  }
+}

@@ -1,5 +1,3 @@
-# エンドポータルの削除
-execute in shigen:the_end run fill -3 62 -3 3 62 3 air replace end_portal
 # エンドラの卵の削除
 execute in shigen:the_end run fill 0 66 0 0 66 0 air replace dragon_egg
 # 残ってるクリスタルをkill
@@ -17,7 +15,7 @@ execute in shigen:the_end run fill 32 79 -26 34 79 -24 air
 ### 消えた岩盤設置
 execute in shigen:the_end run setblock 12 82 -40 bedrock
 execute in shigen:the_end run setblock 33 79 -25 bedrock
-### エンドクリスタル設置
+### 岩盤の1つ上にエンドクリスタル設置
 execute in shigen:the_end run summon end_crystal 12 83 -40
 execute in shigen:the_end run summon end_crystal 33 80 -25
 ## ノーマル
@@ -30,5 +28,7 @@ execute in shigen:the_end run summon end_crystal -34 98 24
 execute in shigen:the_end run summon end_crystal -42 101 -1
 execute in shigen:the_end run summon end_crystal -34 77 -25
 execute in shigen:the_end run summon end_crystal -13 86 -40
+# 帰還ゲート再設置(Y座標を地面の高さ(F3のY座標)から-2した値に変更してください)
+place template shigen:return_portal -3 61 -3
 # エンドラ召喚(卵の位置)
 execute in shigen:the_end run summon ender_dragon 0 66 0 {DragonPhase:0}

@@ -1,7 +1,7 @@
 {
   "display":{
     "icon":{
-      "item":"minecraft:elytra"
+      "item":"elytra"
     },
     "title":{
       "translate":"advancements.shigen.end.title"
@@ -16,7 +16,7 @@
   "parent":"shigen:in_shigen/the_nether",
   "criteria":{
     "requirement":{
-      "trigger":"minecraft:location",
+      "trigger":"location",
       "conditions":{
         "player":{
           "location":{

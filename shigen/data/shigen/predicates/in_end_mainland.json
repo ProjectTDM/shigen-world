@@ -1,16 +1,16 @@
 {
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "position": {
-      "x": {
-        "min": -200,
-        "max": 200
+  "condition":"location_check",
+  "predicate":{
+    "position":{
+      "x":{
+        "min":-200,
+        "max":200
       },
-      "z": {
-        "min": -200,
-        "max": 200
+      "z":{
+        "min":-200,
+        "max":200
       }
     },
-    "dimension": "shigen:the_end"
+    "dimension":"shigen:the_end"
   }
 }

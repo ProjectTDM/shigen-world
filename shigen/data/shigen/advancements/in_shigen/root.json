@@ -1,7 +1,7 @@
 {
   "display":{
     "icon":{
-      "item":"minecraft:compass"
+      "item":"compass"
     },
     "title":{
       "translate":"advancements.shigen.root.title"
@@ -10,7 +10,7 @@
       "translate":"advancements.shigen.root.description"
     },
     "frame":"task",
-    "background":"minecraft:textures/block/dark_oak_log.png"
+    "background":"textures/block/dark_oak_log.png"
   },
   "criteria":{
     "":{

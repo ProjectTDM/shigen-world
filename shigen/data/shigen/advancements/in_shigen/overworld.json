@@ -1,7 +1,7 @@
 {
   "display":{
     "icon":{
-      "item":"minecraft:grass_block"
+      "item":"grass_block"
     },
     "title":{
       "translate":"advancements.shigen.overworld.title"
@@ -16,7 +16,7 @@
   "parent":"shigen:in_shigen/root",
   "criteria":{
     "requirement":{
-      "trigger":"minecraft:location",
+      "trigger":"location",
       "conditions":{
         "player":{
           "location":{

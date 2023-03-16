@@ -1,10 +1,10 @@
 {
-  "type":"the_end",
-  "generator":{
-    "type":"noise",
-    "settings":"end",
-    "biome_source":{
-      "type":"the_end"
+  "type": "the_end",
+  "generator": {
+    "type": "noise",
+    "settings": "end",
+    "biome_source": {
+      "type": "the_end"
     }
   }
 }

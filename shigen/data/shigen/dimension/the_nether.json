@@ -1,11 +1,11 @@
 {
-  "type":"the_nether",
-  "generator":{
-    "type":"noise",
-    "settings":"nether",
-    "biome_source":{
-      "type":"multi_noise",
-      "preset":"nether"
+  "type": "the_nether",
+  "generator": {
+    "type": "noise",
+    "settings": "nether",
+    "biome_source": {
+      "type": "multi_noise",
+      "preset": "nether"
     }
   }
 }

@@ -1,11 +1,12 @@
 # 資源ワールド <!-- ![ダウンロード数](https://img.shields.io/github/downloads/tunakaniri/shigen/total) -->
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.3-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll%20users→Future%3ANone-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.4-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Now%3AAll%20users→Future%3ANone-lightgrey)
 
 資源ワールドをプラグインなどを使わずに作れるデータパック
 - ~v0.1.0 1.17版
 - v0.2.0~ 1.18版
 - v0.3.0~ 1.19版, 1.19.2版
 - v0.4.3~ 1.19.3版
+- v0.4.4~ 1.19.4版
 
 ## とても雑な説明
 1. Releasesからzipファイルをダウンロード！
